@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+}
+
+div ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    font-size: 32px;
+    color: black;
+}
+
+.cont-lista{
+    margin-left: 20px;
+    position: absolute;
+    z-index: 1;
+    transform: translateY(-180px);
+    visibility: hidden;
+    transition: .2s all linear;
+}
+
+.desplegar{
+    margin-left: 20px;
+    visibility: visible;
+    transition: .2s all linear;
+}
+
+.cont-boton{
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background-color: gray;
+}
+
+.boton{
+    cursor: pointer;
+}
+
+.lista{
+    width: 150px;
+    height: 170px;
+    padding-left: 0;
+    border: 1px solid black;
+}
+
+.lista a:hover{
+    color: red;
+}
+
+.cerrar{
+    float: right;
+}
